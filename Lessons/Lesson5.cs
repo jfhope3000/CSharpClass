@@ -61,8 +61,8 @@ namespace CSharpClass.Lessons
         double _myUnderscoreDouble = 1_348.4;
 
         // Casting
-        // Explicit cast where franctions are truncated and not rounded
-        public void ConvertFloatToInt() 
+        // Explicit cast where fractions are truncated and not rounded
+        public void ConvertFloatToInt()
         {
             // local variable
             int converted = (int)_myFloatValue;
