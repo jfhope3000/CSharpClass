@@ -22,6 +22,8 @@ namespace CSharpClass
             Lesson8 myLesson8 = new Lesson8();
             myLesson8.BasicWhileLoop();
             myLesson8.BasicDoWhileLoopExample();
+            Console.WriteLine(myLesson8.BasicJumpStatementExample("Sunday"));
+            myLesson8.BasicOtherJumpStatements();
             
         } // end method my other lesson 8 examples
         static void MyLesson8Examples()

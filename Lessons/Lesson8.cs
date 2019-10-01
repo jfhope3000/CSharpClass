@@ -136,5 +136,67 @@ namespace CSharpClass.Lessons
 
         } // end method basic do while loop example
 
+        /*
+        
+        
+        out of class
+        
+
+
+
+
+
+
+
+        code example missed
+
+
+
+
+
+
+        
+         */
+
+        // end method basic foreach loop example
+
+        // The method shows different jump statements
+        public string BasicJumpStatementExample(string day)
+        {
+            switch (day)
+            {
+                case "Sunday":
+                goto default;
+                case "Monday":
+                case "Tuesday":
+                    return "Test something monday or tuesday";
+                default:
+                    return "Test Nothing";
+            }
+        } // end method basic jump statement example
+
+        // This method shows other jump statements
+        public void BasicOtherJumpStatements()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if(i == 2)
+                {
+                    continue;
+                } // end if
+                if(i == 4)
+                {
+                    Console.WriteLine("loop breaks");
+                    break;
+                } // end if
+                Console.WriteLine(i);
+            } // end for
+            Console.WriteLine("End of loop");
+        } // end method basic other jump statements
+
+
+
+
+
     } // end class
 } // end namespace
