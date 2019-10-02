@@ -16,8 +16,34 @@ namespace CSharpClass
             // MyLesson8Examples();
             // MyOtherLesson8Examples();
             // MyLesson9Examples();
-            MyLesson10Examples();
+            // MyLesson10Examples();
+            // MyLesson11Examples();
+            MyBeerSong();
         } // End Method Main
+
+        static void MyBeerSong()
+        {
+            BottlesOfBeer beer = new BottlesOfBeer();
+            Console.WriteLine(beer.LetsSing());
+        }
+
+        static void MyLesson11Examples()
+        {
+            Lesson11 myEleven = new Lesson11("Happy", 42);
+            Lesson11 myOtherEleven = new Lesson11(22);
+            Lesson11 myLesson11 = new Lesson11();
+
+            Lesson11struct myStruct = new Lesson11struct(9.99m, "Philip K. Dick", "The Man in the High Castle");
+            int myValue = 14;
+            myEleven.MyBasicRefExample(ref myValue);
+            Console.WriteLine(myValue + " from program");
+
+            string first, last;
+            myLesson11.MyBasicOutExample("Charlie Brown", out first, out last);
+            Console.WriteLine(first);
+            Console.WriteLine(last);
+
+        } // end method my lesson 11 examples
 
 
         static void MyLesson10Examples()
