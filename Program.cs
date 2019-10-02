@@ -15,41 +15,51 @@ namespace CSharpClass
             // MyLesson7Examples();
             // MyLesson8Examples();
             // MyOtherLesson8Examples();
-            MyLesson9Examples();
+            // MyLesson9Examples();
+            MyLesson10Examples();
         } // End Method Main
 
+
+        static void MyLesson10Examples()
+        {
+            Lesson10 myTen = new Lesson10();
+            myTen.BasicPublicMethod();
+            Lesson5 myFive = new Lesson5();
+            myFive._myLongValue = 12345L; // can see because internal
+
+        } // end lesson 10 examples
         static void MyLesson9Examples()
-        {
-            Lesson9 myNine = new Lesson9();
-            myNine.BasicArray();
-            myNine.MultiArraySample();
-            myNine.My3DArrayExample();
-            myNine.MyJaggedArrayExample();
+            {
+                Lesson9 myNine = new Lesson9();
+                myNine.BasicArray();
+                myNine.MultiArraySample();
+                myNine.My3DArrayExample();
+                myNine.MyJaggedArrayExample();
 
-        } // end method my lesson 9 examples
+            } // end method my lesson 9 examples
 
- static void MyOtherLesson8Examples()
-        {
-            Lesson8 myLesson8 = new Lesson8();
-            myLesson8.BasicWhileLoop();
-            myLesson8.BasicDoWhileLoopExample();
-            Console.WriteLine(myLesson8.BasicJumpStatementExample("Sunday"));
-            myLesson8.BasicOtherJumpStatements();
-            
-        } // end method my other lesson 8 examples
+        static void MyOtherLesson8Examples()
+            {
+                Lesson8 myLesson8 = new Lesson8();
+                myLesson8.BasicWhileLoop();
+                myLesson8.BasicDoWhileLoopExample();
+                Console.WriteLine(myLesson8.BasicJumpStatementExample("Sunday"));
+                myLesson8.BasicOtherJumpStatements();
+                
+            } // end method my other lesson 8 examples
 
         static void MyLesson8Examples()
-        {
-            Lesson8 myEight = new Lesson8();
-            myEight.BasicIfStatement();
-            myEight.BasicIfElseExample();
-            myEight.BasicIfElseChainExample();
-            Console.WriteLine(myEight.BasicAndConditionExample());
-            Console.WriteLine(myEight.BasicOrConditionExample(24));
-            myEight.BasicTernaryOperatorExample(42);
-            myEight.BasicSwitchExmple(4);
+            {
+                Lesson8 myEight = new Lesson8();
+                myEight.BasicIfStatement();
+                myEight.BasicIfElseExample();
+                myEight.BasicIfElseChainExample();
+                Console.WriteLine(myEight.BasicAndConditionExample());
+                Console.WriteLine(myEight.BasicOrConditionExample(24));
+                myEight.BasicTernaryOperatorExample(42);
+                myEight.BasicSwitchExmple(4);
 
-        } // end method my lesson 8 examples
+            } // end method my lesson 8 examples
         static void MyLesson7Examples()
         {
             Lesson7 mySeven = new Lesson7();
