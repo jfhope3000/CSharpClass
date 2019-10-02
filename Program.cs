@@ -14,10 +14,21 @@ namespace CSharpClass
             // MyLesson6Examples();
             // MyLesson7Examples();
             // MyLesson8Examples();
-            MyOtherLesson8Examples();
+            // MyOtherLesson8Examples();
+            MyLesson9Examples();
         } // End Method Main
 
-        static void MyOtherLesson8Examples()
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            myNine.BasicArray();
+            myNine.MultiArraySample();
+            myNine.My3DArrayExample();
+            myNine.MyJaggedArrayExample();
+
+        } // end method my lesson 9 examples
+
+ static void MyOtherLesson8Examples()
         {
             Lesson8 myLesson8 = new Lesson8();
             myLesson8.BasicWhileLoop();
@@ -26,6 +37,7 @@ namespace CSharpClass
             myLesson8.BasicOtherJumpStatements();
             
         } // end method my other lesson 8 examples
+
         static void MyLesson8Examples()
         {
             Lesson8 myEight = new Lesson8();
